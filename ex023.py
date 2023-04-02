@@ -1,0 +1,17 @@
+num = input('Digite um número entre 0000 e 9999: ')
+n = int(num)
+div = list(num)
+print('O milhar  é: ', div[0])
+print('A centena é: ', div[1])
+print('A dezena  é: ', div[2])
+print('A unidade é: ', div[3])
+
+print('O milhar  é: {}' .format(num[0]))
+print('A centena é: {}' .format(num[1]))
+print('A dezena  é: {}' .format(num[2]))
+print('A unidade é: {}' .format(num[3]))
+
+print('O milhar  é: {}' .format(n//1000%10))
+print('A centena é: {}' .format(n//100%10))
+print('A dezena  é: {}' .format(n//10%10))
+print('A unidade é: {}' .format(n//1%10))
